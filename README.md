@@ -5,6 +5,9 @@ The main purpose of this package is to create a saving system that works well wi
 To get around this, we will use a JavaScript plugin to save to the browser's `localStorage` instead of the IndexedDB which is where Unity's PlayerPrefs or similar systems will save to.
 
 Even though this was made for WebGL games, this should work the same with standalone builds as well, since it automatically detects it's environment and uses the correct saving method based on that.
+
+    - localStorage on WebGL builds.
+    - PlayerPrefs on all other builds.
  
 # HOW TO SET UP:
 
