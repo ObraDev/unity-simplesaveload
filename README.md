@@ -38,11 +38,11 @@ Now we are already prepared to use the system and save any data, here's all the 
 
 **LOADING VALUES:**
 
-`LoadString(string key)` - Loads the string value.
+`LoadString(string key)` - Returns the string value.
 
-`LoadInt(string key)` - Loads the integer value.
+`LoadInt(string key)` - Returns the integer value.
 
-`LoadFloat(string key)` - Loads the float value.
+`LoadFloat(string key)` - Returns the float value.
 
 
 **CHECKING VALUES:**
