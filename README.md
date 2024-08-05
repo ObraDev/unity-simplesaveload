@@ -26,9 +26,10 @@ You do not need to define the Local Storage Manager, but it will be easier, you 
 
 ` private LocalStorageManager storageManager; `
 
-   - You can now add this code to the Start() function of your script:
+You can now add this code to the Start() function of your script:
 
-     ` storageManager = LocalStorageManager.Instance; `
+` storageManager = LocalStorageManager.Instance; `
+
 
 
 Now we are already prepared to use the system and save any data, here's all the functions you can use:
