@@ -9,7 +9,7 @@ Even though this was made for WebGL games, this should work the same with standa
     - localStorage on WebGL builds.
     - PlayerPrefs on all other builds.
  
-# HOW TO SET UP:
+# HOW TO INSTALL:
 
 1. Download the unitypackage file from the releases. 
 2. Open your Unity Project
