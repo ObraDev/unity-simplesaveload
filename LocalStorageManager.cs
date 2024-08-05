@@ -40,11 +40,11 @@ public class LocalStorageManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Optional: persists across scenes
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject); // Ensure only one instance exists
+            Destroy(gameObject);
         }
     }
 
@@ -78,7 +78,7 @@ public class LocalStorageManager : MonoBehaviour
         {
             return PlayerPrefs.GetString(key);
         }
-        return null; // Fallback return to avoid compilation errors
+        return null; 
     }
 
     public void SaveInt(string key, int value)
@@ -107,7 +107,7 @@ public class LocalStorageManager : MonoBehaviour
         {
             return PlayerPrefs.GetInt(key);
         }
-        return 0; // Fallback return to avoid compilation errors
+        return 0; 
     }
 
     public void SaveFloat(string key, float value)
@@ -136,7 +136,7 @@ public class LocalStorageManager : MonoBehaviour
         {
             return PlayerPrefs.GetFloat(key);
         }
-        return 0.0f; // Fallback return to avoid compilation errors
+        return 0.0f; 
     }
 
     public bool HasKey(string key)
@@ -151,7 +151,7 @@ public class LocalStorageManager : MonoBehaviour
         {
             return PlayerPrefs.HasKey(key);
         }
-        return false; // Fallback return to avoid compilation errors
+        return false;
     }
 
     public void Delete(string key)
