@@ -32,7 +32,7 @@ You can now add this code to the Start() function of your script:
 
 
 
-Now we are already prepared to use the system and save any data, here's all the functions you can use:
+*Now we are already prepared to use the system and save any data, here's all the functions you can use:*
 
 **SAVING VALUES:**
 
