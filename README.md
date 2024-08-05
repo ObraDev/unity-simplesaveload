@@ -30,6 +30,7 @@ You do not need to define the Local Storage Manager, but it will be easier, you 
 
      ` storageManager = LocalStorageManager.Instance; `
 
+
 Now we are already prepared to use the system and save any data, here's all the functions you can use:
 
 **SAVING VALUES:**
